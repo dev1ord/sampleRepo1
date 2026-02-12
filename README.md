@@ -109,7 +109,7 @@ A Records:
 ---
 
 ### IP Input Example
-
+```
 Input:
 8.8.8.8
 
@@ -121,7 +121,7 @@ dns.google.
 Hosted Domains:
 example1.com
 example2.com
-
+```
 ---
 
 ## Important Technical Notes
@@ -137,12 +137,12 @@ Reverse DNS does NOT guarantee discovery of all domains hosted on an IP.
 ---
 
 ## Project Structure
-
-.
+```
+ip-domain-intelligence-tool/
 ├── app.py
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Limitations
