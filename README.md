@@ -144,6 +144,7 @@ ip-domain-intelligence-tool/
 ├── main.py
 ├── requirements.txt
 └── README.md
+└── LICENSE
 ```
 ---
 
