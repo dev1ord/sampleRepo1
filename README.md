@@ -62,7 +62,7 @@ Input IP Address
 
 Clone the repository:
 ```
-git clone https://github.com/yourusername/ip-domain-intelligence-tool.git
+git clone https://github.com/shreyazh/ip-domain-intelligence-tool.git
 
 cd ip-domain-intelligence-tool
 ```
@@ -84,7 +84,9 @@ pip install -r requirements.txt
 
 Start the Streamlit server:
 ```
-streamlit run app.py
+streamlit run main.py
+or
+python -m streamlit run main.py
 ```
 
 Open the local URL shown in the terminal (typically http://localhost:8501).
@@ -139,7 +141,7 @@ Reverse DNS does NOT guarantee discovery of all domains hosted on an IP.
 ## Project Structure
 ```
 ip-domain-intelligence-tool/
-├── app.py
+├── main.py
 ├── requirements.txt
 └── README.md
 ```
